@@ -5,7 +5,7 @@ import datetime
 import json
 
 
-class DynamicLocation(MycroftSkill):
+class CafeteriaMenu(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
 
@@ -74,4 +74,4 @@ class DynamicLocation(MycroftSkill):
             self.speak_dialog("friday.menu", data={"frie": frie, "fris": fris, "frid": frid})
 
 def create_skill():
-    return DynamicLocation()
+    return CafeteriaMenu()
