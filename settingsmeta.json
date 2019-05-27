@@ -7,7 +7,7 @@
                 "fields": [
                     {
                         "type": "label",
-                        "label": "This skill allows the employees of focus to know the bus schedule, to edit it just fill in the new information regarding the bus schedule"
+                        "label": "This skill allows the employees of focus to know the cafeteria menu for this week"
                     }
                 ]
             },
@@ -19,22 +19,22 @@
                         "label": "Please enter the monday menu"
                     },
                     {
-                        "name": "MonsE",
+                        "name": "mone",
                         "type": "text",
                         "label": "Starter dish",
                         "value": ""
                     },
                     {
-                        "name": "MonS",
+                        "name": "mone",
                         "type": "text",
                         "label": "Main course",
-                        "value": "8:30"
+                        "value": ""
                     },
                     {
-                        "name": "MonD",
+                        "name": "mond",
                         "type": "text",
                         "label": "Desert",
-                        "value": "Bardo"
+                        "value": ""
                     }
                 ]
             },
@@ -43,25 +43,25 @@
                 "fields": [
                     {
                         "type": "label",
-                        "label": "Please enter the monday menu"
+                        "label": "Please enter the Tuesday menu"
                     },
                     {
-                        "name": "TueE",
+                        "name": "tuee",
                         "type": "text",
                         "label": "Starter dish",
                         "value": ""
                     },
                     {
-                        "name": "TueS",
+                        "name": "tues",
                         "type": "text",
                         "label": "Main course",
-                        "value": "8:30"
+                        "value": ""
                     },
                     {
-                        "name": "TueD",
+                        "name": "tued",
                         "type": "text",
                         "label": "Desert",
-                        "value": "Bardo"
+                        "value": ""
                     }
                 ]
             },
@@ -70,25 +70,25 @@
                 "fields": [
                     {
                         "type": "label",
-                        "label": "Please enter the monday menu"
+                        "label": "Please enter the Wednesday menu"
                     },
                     {
-                        "name": "WedE",
+                        "name": "wede",
                         "type": "text",
                         "label": "Starter dish",
                         "value": ""
                     },
                     {
-                        "name": "WedS",
+                        "name": "weds",
                         "type": "text",
                         "label": "Main course",
-                        "value": "8:30"
+                        "value": ""
                     },
                     {
-                        "name": "WedD",
+                        "name": "wedd",
                         "type": "text",
                         "label": "Desert",
-                        "value": "Bardo"
+                        "value": ""
                     }
                 ]
             },
@@ -97,25 +97,25 @@
                 "fields": [
                     {
                         "type": "label",
-                        "label": "Please enter the monday menu"
+                        "label": "Please enter the Thursday menu"
                     },
                     {
-                        "name": "ThuE",
+                        "name": "thue",
                         "type": "text",
                         "label": "Starter dish",
                         "value": ""
                     },
                     {
-                        "name": "ThuS",
+                        "name": "thus",
                         "type": "text",
                         "label": "Main course",
-                        "value": "8:30"
+                        "value": ""
                     },
                     {
-                        "name": "ThuD",
+                        "name": "thud",
                         "type": "text",
                         "label": "Desert",
-                        "value": "Bardo"
+                        "value": ""
                     }
                 ]
             },
@@ -124,25 +124,25 @@
                 "fields": [
                     {
                         "type": "label",
-                        "label": "Please enter the monday menu"
+                        "label": "Please enter the Friday menu"
                     },
                     {
-                        "name": "FriE",
+                        "name": "frie",
                         "type": "text",
                         "label": "Starter dish",
                         "value": ""
                     },
                     {
-                        "name": "FriS",
+                        "name": "fris",
                         "type": "text",
                         "label": "Main course",
-                        "value": "8:30"
+                        "value": ""
                     },
                     {
-                        "name": "FriD",
+                        "name": "frid",
                         "type": "text",
                         "label": "Desert",
-                        "value": "Bardo"
+                        "value": ""
                     }
                 ]
             }
