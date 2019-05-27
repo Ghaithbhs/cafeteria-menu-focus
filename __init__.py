@@ -1,7 +1,7 @@
 from adapt.intent import IntentBuilder
 from mycroft.skills.core import MycroftSkill, intent_handler
 from mycroft import MycroftSkill, intent_file_handler
-import date
+from datetime import date
 
 
 

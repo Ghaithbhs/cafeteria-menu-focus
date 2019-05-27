@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6a48ee-5b79-4f89-ab13-662fdf391d77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vocab/en-us/menu.querry.voc" beforeDir="false" afterPath="$PROJECT_DIR$/vocab/en-us/menu.querry.voc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocab/en-us/week.days.voc" beforeDir="false" afterPath="$PROJECT_DIR$/vocab/en-us/week.days.voc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -34,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vocab/en-us/menu.querry.voc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -156,9 +155,9 @@
         <option value="$PROJECT_DIR$/vocab/en-us/today.menu.voc" />
         <option value="$PROJECT_DIR$/settingsmeta.json" />
         <option value="$PROJECT_DIR$/vocab/en-us/monday.menu.voc" />
-        <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/vocab/en-us/menu.querry.voc" />
         <option value="$PROJECT_DIR$/vocab/en-us/week.days.voc" />
+        <option value="$PROJECT_DIR$/__init__.py" />
       </list>
     </option>
   </component>
@@ -398,16 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vocab/en-us/week.days.voc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -419,6 +408,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
