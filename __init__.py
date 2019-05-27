@@ -9,13 +9,35 @@ class CafeteriaMenu(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
 
-    @intent_handler(IntentBuilder("").require("monday.menu"))
-    def handle_monday_menu(self):
-        mone = self.settings.get("mone")
-        mons = self.settings.get("mons")
-        mond = self.settings.get("mond")
-        self.speak_dialog("monday.menu", data={"mone": mone, "mons": mons, "mond": mond})
+    @intent_handler(IntentBuilder("").require("menu.query").require("week.days"))
+    def handle_cafeteria_menu(self, message):
+        if message.data["week.days"] == "monday":
+            mone = self.settings.get("mone")
+            mons = self.settings.get("mons")
+            mond = self.settings.get("mond")
+            self.speak_dialog("monday.menu", data={"mone": mone, "mons": mons, "mond": mond})
+        elif message.data["week.days"] == "tuesday":
+            tuee = self.settings.get("tuee")
+            tues = self.settings.get("tues")
+            tued = self.settings.get("tued")
+            self.speak_dialog("tuesday.menu", data={"tuee": tuee, "tues": tues, "tued": tued})
+        elif message.data["week.days"] == "wednesday":
+            wede = self.settings.get("wede")
+            weds = self.settings.get("weds")
+            wedd = self.settings.get("wedd")
+            self.speak_dialog("wednesday.menu", data={"wede": wede, "weds": weds, "wedd": wedd})
+        elif message.data["week.days"] == "wednesday":
+            thue = self.settings.get("thue")
+            thus = self.settings.get("thus")
+            thud = self.settings.get("thud")
+            self.speak_dialog("thursday.menu", data={"thue": thue, "thus": thus, "thud": thud})
+        elif message.data["week.days"] == "wednesday":
+            frie = self.settings.get("frie")
+            fris = self.settings.get("fris")
+            frid = self.settings.get("frid")
+            self.speak_dialog("friday.menu", data={"frie": frie, "fris": fris, "frid": frid})
 
+"""
     @intent_handler(IntentBuilder("").require("tuesday.menu"))
     def handle_tuesday_menu(self):
         tuee = self.settings.get("tuee")
@@ -71,7 +93,7 @@ class CafeteriaMenu(MycroftSkill):
             frie = self.settings.get("frie")
             fris = self.settings.get("fris")
             frid = self.settings.get("frid")
-            self.speak_dialog("friday.menu", data={"frie": frie, "fris": fris, "frid": frid})
+            self.speak_dialog("friday.menu", data={"frie": frie, "fris": fris, "frid": frid})"""
 
 def create_skill():
     return CafeteriaMenu()
