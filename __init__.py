@@ -68,7 +68,8 @@ class CafeteriaMenu(MycroftSkill):
 
     @intent_handler(IntentBuilder("").require("today.menu"))
     def handle_friday_menu(self):
-        today = self.get_weekday()
+        my_date = date.today()
+        today = my_date.get_weekday() #calendar.day_name[my_date.weekday()]
         if today == "monday":
             mone = self.settings.get("mone")
             mons = self.settings.get("mons")
