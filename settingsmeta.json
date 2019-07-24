@@ -22,19 +22,19 @@
                         "name": "mone",
                         "type": "text",
                         "label": "Starter dish",
-                        "value": ""
+                        "value": "Salad"
                     },
                     {
                         "name": "mons",
                         "type": "text",
                         "label": "Main course",
-                        "value": ""
+                        "value": "Couscous"
                     },
                     {
                         "name": "mond",
                         "type": "text",
                         "label": "Desert",
-                        "value": ""
+                        "value": "fruit salad"
                     }
                 ]
             },
